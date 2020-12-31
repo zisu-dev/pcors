@@ -23,7 +23,7 @@
     "build:watch": "yarn tsc --watch",
     "prepare": "yarn build"
   },
-  "name": "cors-proxy",
+  "name": "pcors",
   "version": "0.0.0",
   "description": "Simple CORS proxy for local development",
   "repository": "git@github.com:zzs-web/cors-proxy.git",
