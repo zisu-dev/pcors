@@ -1,15 +1,21 @@
-# typescript-eslint-prettier
+# PCORS
 
-> This is a template repository for fast development using nodejs, ts, eslint and prettier
+> Simple **P**roxy that adds **CORS** headers
 
-## Init
+## Usage
 
-```sh
-yarn init
+```txt
+pcors <port> <target>
+
+Run CORS Proxy
+
+Positionals:
+  port    Local listen port                                             [number]
+  target  Target URL                                                    [string]
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+
+Not enough non-option arguments: got 0, need at least 2
 ```
-
-## Dictionary structure
-
-- Root
-  - src: TypeScript source files
-  - build: TypeScript output (ignored by git)

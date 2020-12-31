@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import yargs from 'yargs'
 import { createProxyMiddleware } from 'http-proxy-middleware'
 import express from 'express'
