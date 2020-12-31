@@ -24,7 +24,7 @@
     "prepare": "yarn build"
   },
   "name": "pcors",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple CORS proxy for local development",
   "repository": "git@github.com:zzs-web/cors-proxy.git",
   "author": "ZhangZisu <i@zzs1.cn>",
