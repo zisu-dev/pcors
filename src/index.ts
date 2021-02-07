@@ -17,7 +17,8 @@ yargs.command(
         describe: 'Target URL',
         type: 'string',
         demandOption: true
-      }),
+      })
+      .option('insecure', { type: 'boolean' }),
   (args) => {
     const app = express()
     app.use(
@@ -29,7 +30,8 @@ yargs.command(
         },
         onProxyRes(proxyRes, req, res) {
           proxyRes.headers['Access-Control-Allow-Origin'] = '*'
-        }
+        },
+        secure: !args.insecure
       })
     )
     app.listen(args.port)
